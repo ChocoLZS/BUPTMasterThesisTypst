@@ -1,0 +1,10 @@
+.vscode/*
+!.vscode/extensions.json
+references/
+/build/
+main.pdf
+/.tmp/
+/tmp/
+
+.claude
+.codex
