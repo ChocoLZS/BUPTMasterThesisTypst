@@ -214,6 +214,7 @@
 
 #let display-heading(it, font, size, alignment: left, above: 0pt, below: 0pt, weight: "regular") = {
   block(width: 100%, above: above, below: below)[
+    #set par(first-line-indent: 0pt)
     #align(alignment)[
       #text(font: font, size: size, weight: weight)[
         #context {
